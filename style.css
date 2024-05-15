@@ -1,5 +1,5 @@
-body{
-    background-color: #f0f0f0;
+body {
+    /* background-color: #f0f0f0; */  /* Uncomment this line if you want a light gray background */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,28 +8,19 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-
-
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-button{
-    padding: 10px 10px;
-    background-color: olive;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-}
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight {
+    color: #f00;
+    font-weight: bold;
+  }
+  
