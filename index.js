@@ -1,7 +1,4 @@
 $(document).ready(() => {
-    $('#magicContainer').hide().fadeIn(3000, () => {
-        $('p').text('Hello Learner');
-    })
+    $('#message').hide().fadeIn(3000).css("font-size", "30px");
 
-    console.log('Hello World');
     });
