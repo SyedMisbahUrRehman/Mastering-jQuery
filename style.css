@@ -10,17 +10,17 @@ body {
     height: 100vh;
   }
   
-  .container {
-    width: 100%;
-    max-width: 600px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    /* width: 100%; */
   }
-  
-  .highlight {
-    color: #f00;
+  #result {
+    font-size: 1.5em;
     font-weight: bold;
+    margin-top: 20px;
   }
-  
