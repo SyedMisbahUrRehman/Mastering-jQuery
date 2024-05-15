@@ -1,4 +1,10 @@
-$(document).ready(() => {
-    $('#message').hide().fadeIn(3000).css("font-size", "30px");
-
+$(document).ready(function() {
+    $("#animate-btn").click(function() {
+        $("#target-box").animate({
+            left: '250px',
+            height: '+=150px',
+            width: '+=150px'
+        }).html("Getting Bigger");
     });
+
+});
