@@ -1,8 +1,10 @@
 $('document').ready(function() {
-    $('#hover-btn').mouseenter(function() {
-        $("#result").text("You hovered the button");
-    });
-    $('#hover-btn').mouseleave(function() {
-        $("#result").text("You left the button");
-    });
+   $('#hide-btn').click(function() {
+    $("#target-element").hide(1000);
+
+   });
+   $('#show-btn').click(function() {
+    $("#target-element").show(1000);
+
+   });
 });
